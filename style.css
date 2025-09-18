@@ -45,17 +45,22 @@ li {
   align-items: center;
 }
 
-.actions button {
+button.excluir {
   margin-left: 5px;
   background: #dc3545;
 }
 
-.actions > .editar{
+button.editar{
   margin-left: 5px;
-  background: #008000;
+  background: #01a101;
 }
 
-.actions button:hover {
+button.editar:hover{
+  margin-left: 5px;
+  background: #428142;
+}
+
+button.excluir:hover {
   background: #a71d2a;
 }
 
