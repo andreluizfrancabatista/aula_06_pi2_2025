@@ -50,6 +50,16 @@ li {
   background: #dc3545;
 }
 
+.actions > .editar{
+  margin-left: 5px;
+  background: #008000;
+}
+
 .actions button:hover {
   background: #a71d2a;
+}
+
+.curso {
+  font-style: italic;
+  color: gray;
 }

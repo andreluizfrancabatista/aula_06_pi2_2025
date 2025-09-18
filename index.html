@@ -1,1 +1,27 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de alunos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>CRUD de alunos</h1>
+    <!-- Formulário para adicionar um novo registro-->
+     <form id="aluno-form">
+        <input type="text" name="nome" id="nome" placeholder="Digite o nome do aluno" required>
+        <input type="number" name="idade" id="idade" required>
+        <input type="text" name="curso" id="curso" placeholder="Digite o curso do aluno" required >
+        <button type="submit">Adicionar</button>
+     </form>
+
+    <!-- Listagem -->
+     <h2>Lista de alunos</h2>
+     <ul id="alunos-list">
+        
+     </ul>
+
+</body>
+</html>
